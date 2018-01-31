@@ -7,7 +7,7 @@ Inspired by [CIA Hive](https://thehackernews.com/2017/11/cia-hive-malware-code.h
 ## Main :
 
 Listens on the `interface` on the provided `port` socket, waiting to catch a specify `header` 
-in order to execute the AES encrypted command.
+in order to execute the AES encrypted `command`.
 
 The command is stored inside the `payload` section of the packet.
 
